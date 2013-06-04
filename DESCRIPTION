@@ -1,0 +1,16 @@
+Package: gglc
+Title: Tool for plotting Lorenz Curves with ggplot2
+Version: 0.1
+Authors@R: c(
+    person("Adam", "Hyland",
+    email = "achyland@bocoup.com", role = c("aut", "cre")))
+Description: Does what it says on the tin.
+Depends:
+    R (>= 3.0.1)
+License: MIT
+Suggests:
+    ineq
+Collate:
+    'convert.R'
+    'gglc-package.r'
+    'lcplot.R'
